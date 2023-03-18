@@ -21,7 +21,7 @@ st.markdown(' ')
 st.markdown(' ')
 
 option = st.selectbox('Please choose a game from the list that you enjoy', (df['title']), 
-                      index=15092, help='you can completely delete the text and enter any game title')
+                      index=1, help='you can completely delete the text and enter any game title')
 
 
 st.write('You have selected:', option)
