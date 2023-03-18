@@ -7,7 +7,7 @@ import streamlit as st
 
 
 df = pd.read_csv('data_for_model.csv', index_col=0)
-model = tc.load_model('/Users/pgagp/Desktop/recsys_bg/turi model')
+model = tc.load_model('turi model')
 
 
 image = Image.open('photo.png')
